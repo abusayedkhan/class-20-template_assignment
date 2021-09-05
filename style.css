@@ -1,0 +1,140 @@
+
+/* reset css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* comon css */
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+.header{
+    background-color: #E3F2FD;
+}
+
+.header img{
+    width: 80%;
+    cursor: pointer;
+}
+.header nav{
+    text-align: start;
+}
+.header nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header nav ul li a{
+    color: rgba(0, 0, 0, 0.548);
+    padding:22px 10px;
+    display: inline-block;
+    transition: .3s;
+}
+.header nav ul li a:hover{
+    color: black;
+}
+#home{
+    color: black;
+}
+
+.para img{
+    height: 700px;
+}
+.header input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.header-btn a{
+    border: 2px solid #2CA942;
+    color: green;
+    padding: 8px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.header-btn a:hover{
+    background-color: #2CA942;
+    color: white;
+}
+
+.breadcrumb{
+    background-color: rgba(0, 0, 0, 0.103);
+    padding: 10px;
+    border-radius: 3px;
+}
+/* collapse-card */
+
+.collapse-header a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+.collapse-card{
+    background-color: #F7F7F7;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 8px 20px;
+    font-size: 20px;
+    display: block;
+}
+.collapse-card a{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.collapse-card2{
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+}
+
+/*Custom css that makes this example work like it does*/
+.scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+  }
+
+  /* alert */
+  .alert{
+      padding:13px 20px;
+      background-color: #D4EDDA;
+      border: none;
+  }
+  .alert h5{
+      padding: 0;
+      color: #2A6839;
+      font-weight: bold;
+  }
+
+  .alert p{
+      padding: 0;
+      margin: 0;
+      color: #3E764A;
+  }
+
+  .alert button{
+      font-size: 10px;
+  }
+
+  footer{
+      background-color: #17A2B8;
+      color: white;
+      text-align: center;
+      padding: 20px;
+  }
+
+  footer p{
+      margin: 0;
+  }
